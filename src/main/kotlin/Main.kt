@@ -1,12 +1,11 @@
 fun main() {
-    var intvariable: Int = readln().toInt()
-    var longvariable: Long = readln().toLong()
-    var charvariable: Char = readln().single()
-    var floatvariable: Float = readln().toFloat()
-    var doubvariable: Double = readln().toDouble()
-    println(intvariable)
-    println(longvariable)
-    println(charvariable)
-    println(floatvariable)
-    println(doubvariable)
+
+    val inputLine = readLine()!!.trim()
+    var(xx,yy) = inputLine.split(" " , limit = 2 )
+    var x = xx.toInt()
+    var y = yy.toLong()
+
+    println("$x + $y = ${x + y}")
+    println("$x * $y = ${x * y}")
+    println("$x - $y = ${x - y}")
 }
