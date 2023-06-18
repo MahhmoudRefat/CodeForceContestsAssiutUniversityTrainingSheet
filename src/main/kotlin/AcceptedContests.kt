@@ -6,7 +6,15 @@ class AcceptedContests {
 * var name = readln().toString()
         println("Hello, $name")
 * */
-
+/**
+ * val inputLine = readLine()!!.trim()
+ *     var(xx,yy) = inputLine.split(" " , limit = 2 )
+ *     var x = xx.toInt()
+ *     var y = yy.toLong()
+ *     println("$x + $y = ${x + y}")
+ *     println("$x * $y = ${x * y}")
+ *     println("$x - $y = ${x - y}")
+ * */
 /*B - Basic Data Types
 *  the right answer:-
 *   val inputLine = readLine()!!.trim()
