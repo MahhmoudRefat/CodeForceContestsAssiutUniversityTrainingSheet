@@ -1,7 +1,7 @@
 fun main() {
-    var r = readLine()!!.toDouble()
-    val pi = 3.141592653
-    var area: Double = pi * r * r
-    val formatted = String.format("%.9f", area)
-    println(formatted)
+    var inputeline = readLine()!!.trim()
+    var (nn, mm) = inputeline.split(" ", limit = 2)
+    var n = nn.toLong()
+    var m = mm.toLong()
+    println((n % 10 )+( m % 10))
 }

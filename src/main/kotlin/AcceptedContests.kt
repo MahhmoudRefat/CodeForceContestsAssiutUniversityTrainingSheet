@@ -28,6 +28,7 @@ class AcceptedContests {
     println(charvariablei)
     println(floatvariablei)
     println(doubvariablei)
+    *
     * ****************************************************
 * the wrong answer
 * var intvariable: Int = readln().toInt()
@@ -50,5 +51,14 @@ class AcceptedContests {
     var d = dd.toLong()
     var x = (a * b) - (c * d)
     println("Difference = $x")
+    * */
+
+    /*
+    Area of a Circle  Problem
+    var r = readLine()!!.toDouble()
+    val pi = 3.141592653
+    var area: Double = pi * r * r
+    val formatted = String.format("%.9f", area)
+    println(formatted)
     * */
 }
