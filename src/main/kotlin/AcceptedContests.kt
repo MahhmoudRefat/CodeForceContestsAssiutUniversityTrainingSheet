@@ -61,4 +61,12 @@ class AcceptedContests {
     val formatted = String.format("%.9f", area)
     println(formatted)
     * */
+    /*F - Digits Summation
+  var inputeline = readLine()!!.trim()
+    var (nn, mm) = inputeline.split(" ", limit = 2)
+    var n = nn.toLong()
+    var m = mm.toLong()
+    println((n % 10 )+( m % 10))
+
+     */
 }

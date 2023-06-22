@@ -1,7 +1,8 @@
 fun main() {
-    var inputeline = readLine()!!.trim()
-    var (nn, mm) = inputeline.split(" ", limit = 2)
-    var n = nn.toLong()
-    var m = mm.toLong()
-    println((n % 10 )+( m % 10))
+var x = readLine()!!.toLong()
+  /*  var sum : Long= 0
+    for(i in 1..x ){
+       sum += i
+    }*/
+    println((x*(x+1))/2)
 }
