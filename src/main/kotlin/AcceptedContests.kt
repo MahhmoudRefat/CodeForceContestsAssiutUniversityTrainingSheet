@@ -69,4 +69,15 @@ class AcceptedContests {
     println((n % 10 )+( m % 10))
 
      */
+
+    /*
+    G - Summation from 1 to N
+
+    var x = readLine()!!.toLong()
+ //////  var sum : Long= 0
+    for(i in 1..x ){
+       sum += i
+    }/////////
+    println((x*(x+1))/2)
+     */
 }
