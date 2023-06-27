@@ -101,4 +101,17 @@ import kotlin.math.roundToInt
     //var floor : Int = x / y
     //  var ceil : Int = floor + 1
      */
+    /*
+    I - Welcome for you with Conditions
+
+    var readinpute = readLine()!!.trim()
+    var (aa, bb) = readinpute.split(" ", limit = 2)
+    var a = aa.toInt()
+    var b = bb.toInt()
+    if (a >= b) {
+        println("Yes")
+    } else {
+        println("No")
+    }
+     */
 }
