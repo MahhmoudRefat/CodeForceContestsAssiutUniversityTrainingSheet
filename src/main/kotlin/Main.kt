@@ -1,11 +1,13 @@
 fun main() {
-    var inputline = readln().trim()
-    var (f1, s1) = inputline.split(" ")
-    var inputline2 = readln().trim()
-    var (f2, s2) = inputline2.split(" ")
-    if (s1 == s2) {
-        println("ARE Brothers")
+    var xx = readLine()!![0]
+    var x = xx.code
+    if (x in 48..64) {
+        println("IS DIGIT")
+    } else if (x in 65..96) {
+        println("ALPHA")
+        println("IS CAPITAL")
     } else {
-        println("NOT")
+        println("ALPHA")
+        println("IS SMALL")
     }
 }
