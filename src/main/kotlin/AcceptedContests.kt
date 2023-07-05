@@ -200,4 +200,16 @@ N - Char
     }
     println(x2.toChar())
  */
+    /*
+    P - First digit !
+
+      var readinput = readln().trim()
+    var x: Int = readinput.first().code
+
+    if (x % 2 == 0) {
+        println("EVEN")
+    } else {
+        println("ODD")
+    }
+     */
 }
