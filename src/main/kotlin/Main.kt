@@ -7,16 +7,5 @@ fun main() {
     var q = qq.toString() //the = operator
     var c = cc.toInt() // the result
 
-    when (s) {
-        "+" -> if (a + b == c ) println("Yes")
-        else println(a+b)
-
-        "-" -> if (a - b == c ) println("Yes")
-        else println(a - b)
-
-        "*" -> if (a * b == c ) println("Yes")
-        else println(a * b)
-    }
-
 
 }
