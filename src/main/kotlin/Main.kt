@@ -1,14 +1,13 @@
 fun main() {
     var readinput = readLine()!!.trim()
     var (aa, bb, cc, dd) = readinput.split(" ")
-    var a = aa.toLong() % 100
-    var b = bb.toLong() % 100
-    var c = cc.toLong() % 100
-    var d = dd.toLong() % 100
-    var multiplication = (a * b * c * d) % 100
-    if (multiplication < 10) {
-        println("0$multiplication")
+    var a = aa.toDouble()
+    var b = bb.toDouble()
+    var c = cc.toDouble()
+    var d = dd.toDouble()
+    if (b * Math.log(a) > d *Math.log(c)) {
+        println("YES")
     } else {
-        println(multiplication)
+        println("NO")
     }
 }
