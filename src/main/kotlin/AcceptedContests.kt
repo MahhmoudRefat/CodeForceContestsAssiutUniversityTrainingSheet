@@ -414,5 +414,15 @@ if (max(l1,l2) > min(r1,r2)) println("-1")
         println("NO")
     }
  */
+/*
+A - 1 to N
 
+var readinput = readLine()!!.trim()
+    var (nn) = readinput.split(" ")
+    var n = nn.toInt()
+for (i in 1 .. n )
+{
+    println(i)
+}
+ */
 }
