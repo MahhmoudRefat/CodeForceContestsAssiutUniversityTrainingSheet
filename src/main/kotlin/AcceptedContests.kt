@@ -415,14 +415,19 @@ if (max(l1,l2) > min(r1,r2)) println("-1")
     }
  */
 /*
-A - 1 to N
+B. Even Numbers
 
-var readinput = readLine()!!.trim()
+ var readinput = readLine()!!.trim()
     var (nn) = readinput.split(" ")
     var n = nn.toInt()
-for (i in 1 .. n )
-{
-    println(i)
-}
+    if (n == 1 || n == 0 ) {
+        println("-1")
+    } else {
+        for (i in 1..n) {
+            if (i % 2 == 0) {
+                println(i)
+            }
+        }
+    }
  */
 }
