@@ -3,15 +3,7 @@ import kotlin.system.exitProcess
 fun main() {
     //var readinput = readLine()!!.trim()
     //var (aa, bb, cc, dd ,ee) = readinput.split(" ")
-    while (true) {
-        var pass = readln().toInt()
-        if (pass == 1999) {
-            println("Correct")
-            exitProcess(0)
-        } else {
-            println("Wrong")
-        }
-    }
+
 
 
 

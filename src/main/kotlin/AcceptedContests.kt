@@ -430,4 +430,15 @@ B. Even Numbers
         }
     }
  */
+    /*
+    while (true) {
+        var pass = readln().toInt()
+        if (pass == 1999) {
+            println("Correct")
+            exitProcess(0)
+        } else {
+            println("Wrong")
+        }
+    }
+     */
 }
