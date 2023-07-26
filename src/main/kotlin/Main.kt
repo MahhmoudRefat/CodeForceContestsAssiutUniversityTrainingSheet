@@ -1,11 +1,21 @@
 import kotlin.system.exitProcess
 
 fun main() {
-    //var readinput = readLine()!!.trim()
-    //var (aa, bb, cc, dd ,ee) = readinput.split(" ")
 
-
-
+    var n = readln().toInt()
+    for (i in 1..12) {
+       println("$n * $i = ${n*i}")
+        }
+/*
+    var n = readln().toInt()
+    var max = 0
+    for (i in 1..n) {
+        var numbers = readln().toInt()
+        if (numbers >= max) {
+            max = numbers
+        }
+    }
+    println(max)*/
 
     /*
 
