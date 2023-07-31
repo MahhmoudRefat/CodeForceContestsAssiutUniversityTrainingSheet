@@ -441,4 +441,11 @@ B. Even Numbers
         }
     }
      */
+    /*
+    F - Multiplication table
+     var n = readln().toInt()
+    for (i in 1..12) {
+       println("$n * $i = ${n*i}")
+        }
+     */
 }
