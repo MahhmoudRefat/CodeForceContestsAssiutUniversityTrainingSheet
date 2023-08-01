@@ -1,13 +1,12 @@
 fun main() {
     var n = readln().toInt()
-    while (n > 0) {
-        val t = readln().toInt()
-        var fac: Long = 1
-        for (i in 1..t) {
-            fac *= i.toLong()
+    var c = 0;
+    for (i in 1..n / 2) {
+        if (n % i == 0) {
+            c++
         }
-        println(fac)
-        n--
     }
+    if (c == 1) println("YES")
+    else println("NO")
 }
 

@@ -448,4 +448,31 @@ B. Even Numbers
        println("$n * $i = ${n*i}")
         }
      */
+    /*
+    G - Factorial *********************
+
+    var n = readln().toInt()
+    while (n > 0) {
+        val t = readln().toInt()
+        var fac: Long = 1
+        for (i in 1..t) {
+            fac *= i.toLong()
+        }
+        println(fac)
+        n--
+    }
+     */
+    /*
+    H - One Prime
+
+     var n = readln().toInt()
+    var c = 0;
+    for (i in 1..n / 2) {
+        if (n % i == 0) {
+            c++
+        }
+    }
+    if (c == 1) println("YES")
+    else println("NO")
+     */
 }
