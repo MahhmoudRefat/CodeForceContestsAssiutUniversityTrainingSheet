@@ -2,20 +2,28 @@ import java.util.*
 import kotlin.math.min
 
 fun main() {
+    //var n = readln().toInt()
     var readinput = readln().trim()
     var (aa, bb) = readinput.split(" ")
     var n = aa.toInt()
-    var n2 = bb.toInt()
-    var c = 0
-    var mi = min(n, n2)
-    //var n = readln().toInt()
-    for (i in 1..mi) {
-        if (n % i == 0 && n2 % i == 0) {
-            c = i
+    var m = bb.toInt()
+    var v = false
+    for (i in n..m) {
+        var a = i
+        var flag = false
+        while (a > 0) {
+            var x = a % 10
+            if (x != 7 && x != 4) {
+                flag = true
+            }
+            a /= 10
+        }
+        if (!flag) {
+            print("$i ")
+            v = true
         }
     }
-    println(c)
-
+    if (!v) println("-1")
 }
 
 /*fun IsPrime(a: Int): Boolean {
