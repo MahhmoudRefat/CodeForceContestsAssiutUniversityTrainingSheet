@@ -1,5 +1,18 @@
 class AcceptedContests {
 /*
+     دى طريقة انى الف على عدد رق مرقم  اكتر من digit سواء احاد او عشرات او مئات وهكذا
+
+ while (a > 0) {
+            var x = a % 10
+            if (x != 7 && x != 4) {
+                flag = true
+            }
+            a /= 10
+        }
+
+ */
+
+    /*
 * A - Say Hello With C++
 * The code :-
 * var name = readln().toString()
@@ -538,6 +551,35 @@ fun IsPrime(a: Int): Boolean {
         }
     }
     println(c)
+
+     */
+
+    /*
+    M - Lucky Numbers
+
+      var readinput = readln().trim()
+    var (aa, bb) = readinput.split(" ")
+    var n = aa.toInt()
+    var m = bb.toInt()
+    var v = false
+    for (i in n..m) {
+        var a = i
+        var flag = false
+        while (a > 0) {
+            var x = a % 10
+            if (x != 7 && x != 4) {
+                flag = true
+            }
+            a /= 10
+        }
+        if (!flag) {
+            print("$i ")
+            v = true
+        }
+    }
+    if (!v) println("-1")
+}
+
 
      */
 }
