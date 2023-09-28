@@ -24,8 +24,6 @@ fun main() {
    var n = aa.toInt()
    var m = bb.toInt()*/
 
-
-
 /*fun IsPrime(a: Int): Boolean {
     if (a == 2) return true
      for (i in 2 .. a/2){
