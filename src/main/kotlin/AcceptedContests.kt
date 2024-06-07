@@ -454,27 +454,8 @@ B. Even Numbers
         }
     }
      */
-    /*
-    F - Multiplication table
-     var n = readln().toInt()
-    for (i in 1..12) {
-       println("$n * $i = ${n*i}")
-        }
-     */
-    /*
-    G - Factorial *********************
 
-    var n = readln().toInt()
-    while (n > 0) {
-        val t = readln().toInt()
-        var fac: Long = 1
-        for (i in 1..t) {
-            fac *= i.toLong()
-        }
-        println(fac)
-        n--
-    }
-     */
+
 
 
 }
