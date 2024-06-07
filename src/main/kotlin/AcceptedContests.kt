@@ -475,54 +475,6 @@ B. Even Numbers
         n--
     }
      */
-    /*
-    H - One Prime
-
-     var n = readln().toInt()
-    var c = 0;
-    for (i in 1..n / 2) {
-        if (n % i == 0) {
-            c++
-        }
-    }
-    if (c == 1) println("YES")
-    else println("NO")
-     */
-    /*
-    I - Palindrome
-      val sc = Scanner(System.`in`)
-    val a = sc.next()
-    var b = ""
-    for (i in a.length - 1 downTo 0) {
-        b += a[i]
-    }
-    val a1: Int
-    val b2: Int
-    a1 = a.toInt()
-    b2 = b.toInt()
-    println(b2)
-    if (a1 == b2) println("YES") else println("NO")
-
-     */
-    /*
-    J. Primes from 1 to n
-
-     var n = readln().toInt()
-    for (i in 2..n) {
-        if (IsPrime(i)) {
-            print("$i ")
-        }
-    }
-}
-
-fun IsPrime(a: Int): Boolean {
-    if (a == 2) return true
-     for (i in 2 .. a/2){
-         if (a % i == 0 )return false
-     }
-    return true
-}
-     */
 
 
 }
