@@ -427,22 +427,7 @@ if (max(l1,l2) > min(r1,r2)) println("-1")
         println("NO")
     }
  */
-/*
-B. Even Numbers
 
- var readinput = readLine()!!.trim()
-    var (nn) = readinput.split(" ")
-    var n = nn.toInt()
-    if (n == 1 || n == 0 ) {
-        println("-1")
-    } else {
-        for (i in 1..n) {
-            if (i % 2 == 0) {
-                println(i)
-            }
-        }
-    }
- */
     /*
     while (true) {
         var pass = readln().toInt()
