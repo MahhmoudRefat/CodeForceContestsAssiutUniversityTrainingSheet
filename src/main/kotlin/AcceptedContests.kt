@@ -398,22 +398,8 @@ if (max(l1,l2) > min(r1,r2)) println("-1")
         println("${max(l1,l2)} ${min(r1,r2)}")
     }
      */
-    /*
-    Y - The last 2 digits
 
-    var readinput = readLine()!!.trim()
-    var (aa, bb, cc, dd) = readinput.split(" ")
-    var a = aa.toLong() % 100
-    var b = bb.toLong() % 100
-    var c = cc.toLong() % 100
-    var d = dd.toLong() % 100
-    var multiplication = (a * b * c * d) % 100
-    if (multiplication < 10) {
-        println("0$multiplication")
-    } else {
-        println(multiplication)
-    }
-     */
+
 /*
  var readinput = readLine()!!.trim()
     var (aa, bb, cc, dd) = readinput.split(" ")
