@@ -283,86 +283,11 @@ var readinput = readLine()!!.trim()
         println("Out of Intervals")
     }
      */
-    /*
-    T. Sort Numbers
 
-     var readinput = readLine()!!.trim()
-    var (aa, bb, cc) = readinput.split(" ")
-    var a = aa.toInt()
-    var b = bb.toInt()
-    var c = cc.toInt()
-    if (a <= b && a <= c) {
-        if (b <= c) {
-            println("$a")
-            println("$b")
-            println("$c")
-        } else {
-            println("$a")
-            println("$c")
-            println("$b")
-        }
-    } else if (b <= a && b <= c) {
-        if (a <= c) {
-            println("$b")
-            println("$a")
-            println("$c")
-        } else {
-            println("$b")
-            println("$c")
-            println("$a")
-        }
-    } else if (c <= a && c <= b) {
-        if (a <= b) {
-            println("$c")
-            println("$a")
-            println("$b")
-        } else {
-            println("$c")
-            println("$b")
-            println("$a")
-        }
-    }
-    println("")
-    println("$a")
-    println("$b")
-    println("$c")
-     */
-    /*
-    U. Float or int
 
-     var readinput = readLine()!!.trim()
-    //var (aa, bb) = readinput.split(" ")
-    var a = readinput.toFloat()
-    var y = a.toInt()
-    var diff = a - y
-    var parsdiff = String.format("%.3f",diff)
-    if (a - y > 0) {
-        println("float ${a.toInt()} ${parsdiff}")
 
-    } else {
-        println("int ${a.toInt()}")
-    }
-     */
 
-/*
-   V - Comparison
-   var readinput = readLine()!!.trim()
 
-    var (aa, ss, bb) = readinput.split(" ")
-    var a = aa.toInt()
-    var s = ss.toString()
-    var b = bb.toInt()
-    when (s) {
-        ">" -> if (a > b) println("Right")
-        else println("Wrong")
-
-        "<" -> if (a < b) println("Right")
-        else println("Wrong")
-
-        "=" -> if (a == b) println("Right")
-        else println("Wrong")
-    }
- */
 
 
 
