@@ -66,14 +66,7 @@ class AcceptedContests {
     println("Difference = $x")
     * */
 
-    /*
-    Area of a Circle  Problem
-    var r = readLine()!!.toDouble()
-    val pi = 3.141592653
-    var area: Double = pi * r * r
-    val formatted = String.format("%.9f", area)
-    println(formatted)
-    * */
+
     /*F - Digits Summation
   var inputeline = readLine()!!.trim()
     var (nn, mm) = inputeline.split(" ", limit = 2)
