@@ -27,6 +27,20 @@ class AcceptedContests {
  *     println("$x * $y = ${x * y}")
  *     println("$x - $y = ${x - y}")
  * */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*B - Basic Data Types
 *  the right answer:-
 *   val inputLine = readLine()!!.trim()
