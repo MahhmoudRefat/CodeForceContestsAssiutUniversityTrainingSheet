@@ -39,6 +39,10 @@ class AcceptedContests {
 
 
 
+
+
+
+
 /*B - Basic Data Types
 *  the right answer:-
 *   val inputLine = readLine()!!.trim()
