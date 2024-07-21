@@ -11,12 +11,7 @@ class AcceptedContests {
  */
 
 
-    /*
-* A - Say Hello With C++
-* The code :-
-* var name = readln().toString()
-        println("Hello, $name")
-* */
+
 /**
  * val inputLine = readLine()!!.trim()
  *     var(xx,yy) = inputLine.split(" " , limit = 2 )
